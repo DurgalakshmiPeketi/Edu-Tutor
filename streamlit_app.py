@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
-werkzeug.security import generate_password_hash, check_password_hash
+
 from models import (
     init_db, get_user_by_email, create_user, update_user_login,
     save_quiz_attempt, get_user_quiz_history, get_all_students_progress,
